@@ -1,4 +1,4 @@
-# Load packages
+# Load 
 library(shiny)
 library(dplyr)
 library(syuzhet)
@@ -29,5 +29,5 @@ server <- function(input, output, session) {
   })
 }
 
-# Configuration
+# Run
 shinyApp(ui = ui, server = server)
